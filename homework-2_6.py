@@ -6,7 +6,7 @@ def bubble_sort(lst):
     return lst
 
 
-print(bubble_sort([10, 7, 6, 3, 6, 9]))
+print(bubble_sort([6, 1, 4, 2, 6, 9]))
 
 
 def binary_search(lst, val):
@@ -25,4 +25,4 @@ def binary_search(lst, val):
     return -1
 
 
-print(binary_search([6, 4, 2, 3, 9, 1], 7))
+print(binary_search([1, 3, 4, 6, 8, 9], 7))
