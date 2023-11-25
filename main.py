@@ -20,4 +20,3 @@ while True:
     if answer == 'N':
         print('До свадания приходите еще')
         break
-
