@@ -8,4 +8,4 @@ def play_bet(bet, lot):
         return bet * 2
     else:
         print("Вы проиграли")
-        return -bet
+        return -bet 
