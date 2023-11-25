@@ -127,10 +127,10 @@ quantity INTEGER (5) NOT NULL DEFAULT 0
 '''
 
 if connection is not None:
-    create_table(connection, create_products_table)
-    create_products(connection)
-    update_product_price(connection, (500, 11))
-    delete_product_by_id(connection, 7)
-    print_all_products(connection)
-    print_products_by_price_and_quantity(connection)
+    # create_table(connection, create_products_table)
+    # create_products(connection)
+    # update_product_price(connection, (500, 11))
+    # delete_product_by_id(connection, 7)
+    # print_all_products(connection)
+    # print_products_by_price_and_quantity(connection)
     print_all_product_by_title(connection, 'Nitro')
